@@ -1,0 +1,1 @@
+Neovim configuration file for VS-code or Neovim.
