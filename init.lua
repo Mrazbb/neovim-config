@@ -1,7 +1,7 @@
 local opt = vim.opt
 -- 
 -- Set clipboard to use unnamedplus
-opt.clipboard = 'unnamedplus' -- Enable line numbering opt.number = true opt.relativenumber = true
+opt.clipboard = 'unnamed' -- Enable line numbering opt.number = true opt.relativenumber = true
 
 -- Set tab and indentation settings
 opt.tabstop = 3
@@ -14,7 +14,7 @@ vim.g.mapleader = " "
  
  
 -- Fast moving 
-vim.keymap.set('n', 'J', '10j')
+vim.keymap.set('n', 'J', '5j')
 vim.keymap.set('n', 'K', '5k')
 vim.keymap.set('n', '<Leader>j', 'J')
 
